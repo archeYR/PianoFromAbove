@@ -1,20 +1,28 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1525
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PianoFromAbove", "PianoFromAbove\PianoFromAbove.vcxproj", "{DD4C822F-844F-40BF-8113-129B04EDE199}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
 		Debug|Win32 = Debug|Win32
 		Debug|x64 = Debug|x64
+		Release|ARM = Release|ARM
 		Release|Win32 = Release|Win32
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD4C822F-844F-40BF-8113-129B04EDE199}.Debug|ARM.ActiveCfg = Debug|ARM
+		{DD4C822F-844F-40BF-8113-129B04EDE199}.Debug|ARM.Build.0 = Debug|ARM
 		{DD4C822F-844F-40BF-8113-129B04EDE199}.Debug|Win32.ActiveCfg = Debug|Win32
 		{DD4C822F-844F-40BF-8113-129B04EDE199}.Debug|Win32.Build.0 = Debug|Win32
 		{DD4C822F-844F-40BF-8113-129B04EDE199}.Debug|x64.ActiveCfg = Debug|x64
 		{DD4C822F-844F-40BF-8113-129B04EDE199}.Debug|x64.Build.0 = Debug|x64
+		{DD4C822F-844F-40BF-8113-129B04EDE199}.Release|ARM.ActiveCfg = Release|ARM
+		{DD4C822F-844F-40BF-8113-129B04EDE199}.Release|ARM.Build.0 = Release|ARM
 		{DD4C822F-844F-40BF-8113-129B04EDE199}.Release|Win32.ActiveCfg = Release|Win32
 		{DD4C822F-844F-40BF-8113-129B04EDE199}.Release|Win32.Build.0 = Release|Win32
 		{DD4C822F-844F-40BF-8113-129B04EDE199}.Release|x64.ActiveCfg = Release|x64
@@ -22,5 +30,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2C5BEC3-C274-4DC0-87AF-AECF156DF69E}
 	EndGlobalSection
 EndGlobal
